@@ -21,6 +21,7 @@ State Management <br>
 ## Practices
 
 Follow Industry best practices<br>
+Imitate Other Digital learning Platforms 
 
 ### About
 
