@@ -4,18 +4,18 @@ A new Flutter project.
 
 ## Tasks
 
-Add Modules in each courses
-Add Progress in Courses
-Add Dark Mode
-Add Exams Sections
-Add Recruitment Sections
+Add Modules in each courses <br>
+Add Progress in Courses <br>
+Add Dark Mode <br>
+Add Exams Sections <br>
+Add Recruitment Sections <br>
 Follow a Simple Design Philosophy
 
 ## Problems
 
-Modded Apks - use Server/Encrption 
-Piracy
-State Management
+Modded Apks - use Server/Encrption <br>
+Piracy <br>
+State Management <br>
 
 ### About
 
