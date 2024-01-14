@@ -14,6 +14,7 @@ Add login and signup
 
 ## Problems
 
+Modded Apks,Piracy,
 
 
 ### About
