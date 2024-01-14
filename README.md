@@ -14,20 +14,9 @@ Add login and signup
 
 ## Problems
 
-<<<<<<< HEAD
 Modded Apks - use Server/Encrption. 
 Piracy
 State Management
-=======
-Modded Apks - use Server/Encrption <br>
-Piracy <br>
-State Management <br>
-
-## Practices
-
-Follow Industry best practices<br>
-Imitate Other Digital learning Platforms 
->>>>>>> e4208b0c240d615be8924a8e9782461f0e71ada6
 
 ### About
 
