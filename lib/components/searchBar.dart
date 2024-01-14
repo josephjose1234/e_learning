@@ -32,8 +32,8 @@ class Search extends StatelessWidget {
             width: double.maxFinite,
             padding:EdgeInsets.all(15),
             margin: EdgeInsets.all(15),
-            decoration: BoxDecoration(border: Border.all(width: 1,color: Colors.white), borderRadius: BorderRadius.circular(25)),
-            child:Text('Search...',style:TextStyle(color: textColor))
+            decoration: BoxDecoration(border: Border.all(width: 1,color: Colors.blue), borderRadius: BorderRadius.circular(25)),
+            child:Text('Search...',style:TextStyle(color: Colors.blue))
           ),
     );
   }

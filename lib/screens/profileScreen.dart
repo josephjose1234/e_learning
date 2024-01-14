@@ -34,7 +34,7 @@ class _ProfileState extends State<Profile> {
                 TileName(item: 'Edit'),
                 TileName(item: 'Settings'),
                 TileName(item: 'Support'),
-                TileName(item: 'Fees'),
+                TileName(item: 'Pricing'),
                 TileName(item: 'About'),
                 TileName(item: 'Logout'),
               ],

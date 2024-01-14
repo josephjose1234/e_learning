@@ -10,7 +10,13 @@ class Explore extends StatelessWidget {
           padding:EdgeInsets.all(10),
           margin: EdgeInsets.all(1),
          
-          child:Text('Explore',style:TextStyle(fontSize: 30,color:Colors.white))
+          child:Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Text('Explore',style:TextStyle(fontSize: 30,color:Colors.white)),
+              Text('More',style:TextStyle(fontSize: 20,color:Colors.blue))
+            ],
+          )
         );
   }
 }
