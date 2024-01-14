@@ -14,9 +14,7 @@ Add login and signup
 
 ## Problems
 
-Modded Apks - use Server/Encrption. 
-Piracy
-State Management
+
 
 ### About
 
