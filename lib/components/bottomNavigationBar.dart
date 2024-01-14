@@ -10,7 +10,7 @@ class BottomBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 50,
-      color: Colors.blue[900],
+      color: Color.fromARGB(255,11, 20, 26),
       // Your bottom navigation bar content here
       child: Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
         GestureDetector(

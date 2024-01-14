@@ -13,7 +13,7 @@ Follow a Simple Design Philosophy
 
 ## Problems
 
-Modded Apks - use Server/Encrption 
+Modded Apks - use Server/Encrption. 
 Piracy
 State Management
 

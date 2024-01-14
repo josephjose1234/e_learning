@@ -7,10 +7,10 @@ class Explore extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
           width: double.maxFinite,
-          padding:EdgeInsets.all(5),
-          margin: EdgeInsets.all(15),
+          padding:EdgeInsets.all(10),
+          margin: EdgeInsets.all(1),
          
-          child:Text('Explore',style:TextStyle(fontSize: 30))
+          child:Text('Explore',style:TextStyle(fontSize: 30,color:Colors.white))
         );
   }
 }

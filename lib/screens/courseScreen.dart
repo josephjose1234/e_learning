@@ -1,3 +1,4 @@
+import 'package:e_learning/colors.dart';
 import 'package:e_learning/components/bottomNavigationBar.dart';
 import 'package:flutter/material.dart';
 
@@ -12,6 +13,7 @@ class _CourseScreenState extends State<CourseScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: mainBackgroundColor,
         body: SafeArea(
       child: Stack(
         children: [
@@ -23,7 +25,7 @@ class _CourseScreenState extends State<CourseScreen> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Text('Your Courses', style: TextStyle(fontSize: 35)),
+                    Text('Your Courses', style: TextStyle(fontSize: 35,color: textColor)),
                     Icon(
                       Icons.search,
                       size: 40,
@@ -32,8 +34,9 @@ class _CourseScreenState extends State<CourseScreen> {
                 ),
               ),
             Expanded(
-              child: ListView.builder(
+              child: GridView.builder(
                 itemCount: 15,
+                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
                 itemBuilder: (BuildContext context, int index) {
                 return GestureDetector(
                   onTap:() {
@@ -61,7 +64,7 @@ class _CourseScreenState extends State<CourseScreen> {
                     width:double.maxFinite,
                     margin:EdgeInsets.all(5),
                     decoration: BoxDecoration(
-                      color:Colors.blue[900],
+                      color:subBackgroundColor,
                       borderRadius: BorderRadius.circular(5)),
                     child:Center(child: Text('Course ${index}',style:TextStyle(color:Colors.white)),),),
                 );

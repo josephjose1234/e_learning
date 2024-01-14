@@ -1,5 +1,6 @@
 
 
+import 'package:e_learning/colors.dart';
 import 'package:flutter/material.dart';
 
 class StudentInfoBar extends StatelessWidget {
@@ -18,9 +19,9 @@ class StudentInfoBar extends StatelessWidget {
                 children: [
                   Padding(
                     padding: const EdgeInsets.all(15.0),
-                    child: Icon(Icons.person,size: 50,),
+                    child: Icon(Icons.person,size: 50,color:textColor),
                   ),
-                  Text('Joseph',style:TextStyle(fontSize: 30)),
+                  Text('Joseph',style:TextStyle(fontSize: 30,color: textColor)),
                 ],
               ),
               
@@ -47,7 +48,7 @@ class StudentInfoBar extends StatelessWidget {
               },
             );
           },
-                  child: Icon(Icons.notifications,size:35)),
+                  child: Icon(Icons.notifications,size:35,color: textColor,)),
               )
             ],
           )
